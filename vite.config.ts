@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-	base: '/newsTest',
+	base: '/news-test',
 	plugins: [react()],
 	resolve: {
 		alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }],
