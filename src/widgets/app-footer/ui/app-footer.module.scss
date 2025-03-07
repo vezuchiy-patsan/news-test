@@ -1,0 +1,30 @@
+.footer {
+	position: relative;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 12px;
+	ul {
+		display: flex;
+		gap: 20px;
+	}
+}
+.footerPowered {
+	padding-bottom: 24px;
+}
+.footerNav {
+	margin-bottom: 28px;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.footerLogo {
+	height: auto;
+	margin: 8px 0 25px 0;
+	width: 84px;
+}

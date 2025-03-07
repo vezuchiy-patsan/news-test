@@ -1,0 +1,70 @@
+.header {
+	position: relative;
+	padding: 22px 0;
+	border-bottom: 1px solid var(--border-color);
+}
+.title {
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.button {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.buttonIcon {
+	width: 20px;
+	height: 16px;
+}
+
+.menu {
+	position: fixed;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background-color: var(--bg-color);
+	color: var(--fonr-color);
+	transition: left 0.3s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: -5px 0px 20px 0px #0000003d;
+
+	ul {
+		width: 100%;
+		list-style: none;
+		padding: 0 20px;
+	}
+
+	ul li {
+		margin: 0 0 28px 0;
+		font-size: 24px;
+		font-weight: 700;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+}
+
+.menu.open {
+	left: 0;
+	z-index: 100;
+}
+
+.closeButton {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: none;
+	border: none;
+	color: var(--font-color);
+	font-size: 24px;
+	cursor: pointer;
+}

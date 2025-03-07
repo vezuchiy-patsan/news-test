@@ -1,0 +1,17 @@
+@use './reset';
+@use './variables/global';
+
+.app {
+	font: var(--font-m);
+	min-height: 100vh;
+}
+
+.page-wrapper {
+	display: flex;
+	padding: 20px;
+	flex-direction: column;
+}
+
+button:focus {
+	outline: none;
+}
