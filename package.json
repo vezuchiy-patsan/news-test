@@ -6,7 +6,7 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
-	"homepage": "https://vezuchiy-patsan.github.io/newsTest",
+	"homepage": "https://vezuchiy-patsan.github.io/news-test",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
